@@ -10,7 +10,9 @@ class StepDefinitions {
     private lateinit var lucy: Person
     private var messageFromSean: String = ""
 
-    @Given("Lucy is located {int} meters from Sean")
+    // here (s) helps with singular or plural
+    // using wordA/wordB to apply either or
+    @Given("Lucy is standing/located {int} meter(s) from Sean")
     fun `lucy is located meters from sean`(distance: Int?) {
         lucy = Person()
         sean = Person()
