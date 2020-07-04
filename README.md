@@ -1,70 +1,9 @@
-# Cucumber-Kotlin Shouty
+# Pluralsight: BDD With Cucumber and Gherkin
 
-[![Build Status](https://travis-ci.org/cucumber/cucumber-java-skeleton.svg?branch=main)](https://travis-ci.org/cucumber/cucumber-java-skeleton)
+**Features and Scenarios**
 
-This is the simplest possible build script setup for Cucumber using Kotlin.
-There is nothing fancy like a webapp or browser testing. All this does is to show you how
-to install and run Cucumber!
+- A feature is a piece of useful functionality we deliver to the users
+- A feature can be made of several scenarios, and the combination of scenarios make user stories.
 
-There is a single feature file with one scenario. The scenario has three steps, two of them pending. See if you can make them all pass!
-
-## Get the code
-
-Git:
-
-    git clone https://github.com/cucumber/cucumber-java-skeleton.git
-    cd cucumber-java-skeleton
-
-Subversion:
-
-    svn checkout https://github.com/cucumber/cucumber-java-skeleton/trunk cucumber-java-skeleton
-    cd cucumber-java-skeleton
-
-Or simply [download a zip](https://github.com/cucumber/cucumber-java-skeleton/archive/main.zip) file.
-
-## Use Gradle
-
-Open a command window and run:
-
-     ./gradlew test --rerun-tasks --info
-
-This runs Cucumber features using Cucumber's JUnit runner. The `@RunWith(Cucumber.class)` annotation on the
-`RunCucumberTest` class tells JUnit to kick off Cucumber.
-
-## Overriding options
-
-The Cucumber runtime parses command line options to know what features to run, where the glue code lives, what plugins to use etc.
-When you use the JUnit runner, these options are generated from the `@CucumberOptions` annotation on your test.
-
-Sometimes it can be useful to override these options without changing or recompiling the JUnit class. This can be done with the
-`cucumber.options` system property. The general form is:
-
-Using Gradle:
-
-    gradlew -Dcucumber.features="..." -Dcucumber.glue="..." test
-
-### Run a subset of Features or Scenarios
-
-Specify a particular scenario by *line*
-
-    -Dcucumber.features="classpath:skeleton/belly.feature:4"
-
-In case you have many feature files or scenarios to run against, separate them with commas `,`
-
-    -Dcucumber.features="src/test/resources/skeleton/belly.feature:4, src/test/resources/skeleton/stomach.feature"
-
-You can also specify what to run by *tag*:
-
-    -Dcucumber.filter.tags="--tags @bar"
-
-### Running only the scenarios that failed in the previous run
-
-    -Dcucumber.features="@target/rerun.txt"
-
-This works as long as you have the `rerun` formatter enabled.
-
-### Specify a different formatter:
-
-For example a JUnit formatter:
-
-    -Dcucumber.plugin="junit:target/cucumber-junit-report.xml"
+<img width="703" alt="image" src="https://user-images.githubusercontent.com/3371622/86518114-35c51600-bdf4-11ea-9565-2b1c5c11d289.png">
+<img width="769" alt="Screen Shot 2020-07-04 at 12 46 26" src="https://user-images.githubusercontent.com/3371622/86518146-9c4a3400-bdf4-11ea-9c29-7fee666b6673.png">
