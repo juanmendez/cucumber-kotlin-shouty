@@ -35,3 +35,7 @@ Here for example the `When` and `Then` can be simplified by using placeholders
 <img width="763" alt="image" src="https://user-images.githubusercontent.com/3371622/86518378-4e82fb00-bdf7-11ea-9fac-e92cc3b2af14.png">
 
 <img width="745" alt="image" src="https://user-images.githubusercontent.com/3371622/86518396-6a869c80-bdf7-11ea-9fbd-fcee2633f194.png">
+
+**Anatomy of Cucumber Testing**
+
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/3371622/86519662-5eeca300-be02-11ea-89d3-497ca22916b0.png">
