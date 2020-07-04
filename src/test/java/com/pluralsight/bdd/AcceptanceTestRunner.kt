@@ -1,4 +1,4 @@
-package io.cucumber.shouty
+package com.pluralsight.bdd
 
 import io.cucumber.junit.Cucumber
 import io.cucumber.junit.CucumberOptions
