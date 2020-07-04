@@ -1,6 +1,6 @@
 package io.cucumber.shouty
 
-class Person {
+class Person(val name: String = "") {
     private val _messagesHeard = mutableListOf<String>()
     val messagesHeard: List<String> = _messagesHeard
 
