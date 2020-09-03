@@ -1,5 +1,5 @@
 # Cucumber-Kotlin Shouty
-Each learning goal lives in its own branch
+Each learning goal is attached to a git-branch
 
 [![Build Status](https://travis-ci.org/cucumber/cucumber-java-skeleton.svg?branch=main)](https://travis-ci.org/cucumber/cucumber-java-skeleton)
 
